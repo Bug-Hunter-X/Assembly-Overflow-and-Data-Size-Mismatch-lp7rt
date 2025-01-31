@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle error in assembly programming:  using registers that are too small for the data being manipulated.  The example shows an attempt to load a value larger than the capacity of the AX register and demonstrates how to fix this via appropriate data type handling and overflow checks.
